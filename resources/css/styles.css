@@ -132,3 +132,18 @@ header .mobile {
     margin-top: 1.625rem;
     padding: 1.25rem 7.25rem;
 }
+
+@media only screen and (max-width: 760px) {
+    #lighthouse {
+        align-items: center;
+        justify-content: center;
+        height: 28rem;
+    }
+
+    #philosophy {
+        position: static;
+        width: auto;
+        height: auto;
+        border: none;
+    }
+}
